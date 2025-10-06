@@ -2,12 +2,12 @@
 ## Task Data
 | Task | Description | Duration (days) | Predecessor |
 |------|--------------|----------------|--------------|
-| 1 | Project planning | 1 | - |
-| 2 | Task allocation | 4 | 1 |
-| 3 | Obtain hardware | 17 | 1 |
-| 4 | Program development | 70 | 2 |
-| 5 | Install hardware | 10 | 3 |
-| 6 | Program testing | 30 | 4 |
+| 1 | Project planning 研擬計畫 | 1 | - |
+| 2 | Task allocation 任務分配 | 4 | 1 |
+| 3 | Obtain hardware 取得硬體 | 17 | 1 |
+| 4 | Program development 程式開發 | 70 | 2 |
+| 5 | Install hardware 安裝硬體 | 10 | 3 |
+| 6 | Program testing 程式測試 | 30 | 4 |
 | 7 | Write user manual | 25 | 5 |
 | 8 | File conversion | 20 | 5 |
 | 9 | System testing | 25 | 6 |
@@ -17,6 +17,7 @@
 ## PERT/CPM Diagram
 Critical Path: **1 → 2 → 4 → 6 → 9 → 11**  
 Total Duration: **155 days**
+![pert Chart](pert_cpm.png)
 
 ## Gantt Chart
 ![Gantt Chart](gantt_chart.png)
