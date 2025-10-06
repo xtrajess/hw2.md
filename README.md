@@ -19,7 +19,7 @@ Critical Path: **1 → 2 → 4 → 6 → 9 → 11**
 Total Duration: **155 days**
 
 ## Gantt Chart
-![Gantt Chart](gantt.png)
+![Gantt Chart](gantt_chart.png)
 
 ## Notes
 - Tasks on the critical path have zero slack.
